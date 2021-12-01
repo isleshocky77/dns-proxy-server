@@ -34,7 +34,7 @@ __Version 2__
   "webServerPort": 0, // web admin port, when 0 the default value is used, see --help option
   "dnsServerPort": 8980, // dns server port, when 0 the default value is used
   "logLevel": "DEBUG",
-  "logFile": "console" // where the log will be written,
+  "logFile": "console", // where the log will be written
   "registerContainerNames": false, // if should register container name / service name as a hostname
   "domain": "", // The container names domain
   "dpsNetwork": false, // if should create a bridge network for dps container
